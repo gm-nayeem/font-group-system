@@ -77,7 +77,7 @@ const FontGroupForm = ({ fonts, onCreateFontGroups }) => {
                     <Button
                         name="+ Add Row"
                         onClick={onAddRow}
-                        className="border border-teal-600"
+                        className="border border-teal-600 py-1.5 px-6 "
                     />
                     <Button name="Create" type="submit" />
                 </div>

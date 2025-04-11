@@ -14,7 +14,7 @@ const FontList = ({ fonts, onDeleteFont }) => {
                 Example Style
             </td>
             <td className='action'>
-                <Button name="Delete" onClick={() => onDeleteFont(index)} className='text-red-600 hover:underline' style={{}} />
+                <Button name="Delete" onClick={() => onDeleteFont(index)} className='text-red-600 hover:underline' />
             </td>
         </>
     );

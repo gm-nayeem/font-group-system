@@ -30,7 +30,7 @@ const App = () => {
   };
 
   return (
-    <div className="app">
+    <div className="w-full h-full p-8 flex flex-col items-center gap-8">
       <FontUploader onUploadFont={onUploadFont} />
       <FontList fonts={fonts} onDeleteFont={onDeleteFont} />
 

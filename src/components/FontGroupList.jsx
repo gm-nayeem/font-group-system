@@ -16,8 +16,8 @@ const FontGroupList = ({ fontGroups, onEditFontGroups, onDeleteFontGroups }) => 
             <td>{row.fonts.length}</td>
             <td className='action'>
                 <div className="w-full flex justify-end gap-4">
-                    <Button name="Edit" onClick={() => onEditFontGroups(index)} className='text-blue-600 hover:underline' style={{}} />
-                    <Button name="Delete" onClick={() => onDeleteFontGroups(index)} className='text-red-600 hover:underline' style={{}} />
+                    <Button name="Edit" onClick={() => onEditFontGroups(index)} className='text-blue-600 hover:underline' />
+                    <Button name="Delete" onClick={() => onDeleteFontGroups(index)} className='text-red-600 hover:underline' />
                 </div>
             </td>
         </>
